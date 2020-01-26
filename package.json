@@ -1,0 +1,21 @@
+{
+  "name": "cosplayhelper",
+  "version": "1.0.0",
+  "description": "Planning app for cosplayers - built with React, Redux, Node/Express, and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd cosserver && npm install && npm start",
+    "heroku-postbuild": "cd cosclient && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colbyeg/CosplayHelper.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/colbyeg/CosplayHelper/issues"
+  },
+  "homepage": "https://github.com/colbyeg/CosplayHelper#readme"
+}
